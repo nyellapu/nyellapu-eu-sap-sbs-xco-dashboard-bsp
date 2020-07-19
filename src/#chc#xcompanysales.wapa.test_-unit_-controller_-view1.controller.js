@@ -1,0 +1,1 @@
+sap.ui.define(["com/mckesson/eu/SBSCrossCompanySales/controller/View1.controller"],function(e){"use strict";QUnit.module("View1 Controller");QUnit.test("I should test the View1 controller",function(o){var n=new e;n.onInit();o.ok(n)})});                   

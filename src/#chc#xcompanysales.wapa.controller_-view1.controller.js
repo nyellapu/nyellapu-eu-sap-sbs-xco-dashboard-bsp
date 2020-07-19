@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("com.mckesson.eu.SBSCrossCompanySales.controller.View1",{onInit:function(){var e=this;$.get("/sap/bc/bsp/chc/r_xcompany/index.htm",function(n){e.getView().byId("html").+
+setContent(n)})}})});                                                                                                                                                                                                                                          
